@@ -8,7 +8,7 @@
  *
  * @package   HybridCore
  * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2008 - 2019, Justin Tadlock
+ * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
  * @link      https://themehybrid.com/hybrid-core
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
@@ -21,7 +21,7 @@ use Hybrid\Support\Contracts\Displayable;
 /**
  * Attributes interface.
  *
- * @since  5.0.0
+ * @since  1.0.0
  * @access public
  */
 interface Attributes extends Renderable, Displayable {
@@ -30,7 +30,7 @@ interface Attributes extends Renderable, Displayable {
 	 * Returns an array of HTML attributes in name/value pairs. Attributes
 	 * are not expected to be escaped. Escaping should be handled on output.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @return array
 	 */
@@ -39,7 +39,7 @@ interface Attributes extends Renderable, Displayable {
 	/**
 	 * Returns a single, unescaped attribute's value.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @param  string  $name
 	 * @return string
@@ -49,7 +49,7 @@ interface Attributes extends Renderable, Displayable {
 	/**
 	 * Adds custom data to the attribute object.
 	 *
-	 * @since  5.2.0
+	 * @since  1.0.0
 	 * @access public
 	 * @param  string|array  $name
 	 * @param  mixed         $value

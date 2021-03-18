@@ -9,7 +9,7 @@
  *
  * @package   HybridCore
  * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2008 - 2019, Justin Tadlock
+ * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
  * @link      https://themehybrid.com/hybrid-core
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
@@ -21,7 +21,7 @@ use Hybrid\Attr\Contracts\Attributes;
 /**
  * Attributes class.
  *
- * @since  5.0.0
+ * @since  1.0.0
  * @access public
  */
 class Attr implements Attributes {
@@ -29,7 +29,7 @@ class Attr implements Attributes {
 	/**
 	 * The name/ID of the element (e.g., `sidebar`).
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @var    string
 	 */
@@ -38,7 +38,7 @@ class Attr implements Attributes {
 	/**
 	 * A specific context for the element (e.g., `primary`).
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @var    string
 	 */
@@ -47,7 +47,7 @@ class Attr implements Attributes {
 	/**
 	 * The input attributes first passed in.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @var    array
 	 */
@@ -56,7 +56,7 @@ class Attr implements Attributes {
 	/**
 	 * Stored array of attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @var    array
 	 */
@@ -65,7 +65,7 @@ class Attr implements Attributes {
 	/**
 	 * Stored array of data.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @var    array
 	 */
@@ -74,7 +74,7 @@ class Attr implements Attributes {
 	/**
 	 * Outputs an HTML element's attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @param  string  $slug
 	 * @param  string  $context
@@ -92,7 +92,7 @@ class Attr implements Attributes {
 	 * When attempting to use the object as a string, return the attributes
 	 * output as a string.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @return string
 	 */
@@ -104,7 +104,7 @@ class Attr implements Attributes {
 	/**
 	 * Outputs an escaped string of attributes for use in HTML.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @return void
 	 */
@@ -116,7 +116,7 @@ class Attr implements Attributes {
 	/**
 	 * Returns an escaped string of attributes for use in HTML.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @return string
 	 */
@@ -145,7 +145,7 @@ class Attr implements Attributes {
 	/**
 	 * Adds custom data to the attribute object.
 	 *
-	 * @since  5.2.0
+	 * @since  1.0.0
 	 * @access public
 	 * @param  string|array  $name
 	 * @param  mixed         $value
@@ -165,7 +165,7 @@ class Attr implements Attributes {
 	/**
 	 * Returns a single, unescaped attribute's value.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @param  string  $name
 	 * @return string
@@ -180,7 +180,7 @@ class Attr implements Attributes {
 	/**
 	 * Filters and returns the array of attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @return void
 	 */
@@ -245,7 +245,7 @@ class Attr implements Attributes {
 	/**
 	 * `<html>` element attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @param  array   $attr
 	 * @return array
@@ -270,7 +270,7 @@ class Attr implements Attributes {
 	/**
 	 * `<body>` element attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @param  array   $attr
 	 * @return array
@@ -288,7 +288,7 @@ class Attr implements Attributes {
 	/**
 	 * Post `<article>` element attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @param  array   $attr
 	 * @return array
@@ -307,7 +307,7 @@ class Attr implements Attributes {
 	/**
 	 * Alias for `post()`.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @param  array   $attr
 	 * @return array
@@ -320,7 +320,7 @@ class Attr implements Attributes {
 	/**
 	 * Comment wrapper attributes.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @param  array   $attr
 	 * @return array

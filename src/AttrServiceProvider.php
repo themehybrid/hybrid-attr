@@ -22,7 +22,7 @@ use Hybrid\Attr\Contracts\Attributes;
 /**
  * Attr provider class.
  *
- * @since  5.0.0
+ * @since  1.0.0
  * @access public
  */
 class AttrServiceProvider extends ServiceProvider {
@@ -30,7 +30,7 @@ class AttrServiceProvider extends ServiceProvider {
 	/**
 	 * Binds the implementation of the attributes contract to the container.
 	 *
-	 * @since  5.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @return void
 	 */

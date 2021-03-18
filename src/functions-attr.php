@@ -25,7 +25,7 @@ use Hybrid\Proxies\App;
 /**
  * Wrapper for creating a new `Attributes` object.
  *
- * @since  5.0.0
+ * @since  1.0.0
  * @access public
  * @param  string  $name
  * @param  string  $context
@@ -40,7 +40,7 @@ function attr( $name, $context = '', array $attr = [] ) {
 /**
  * Outputs an HTML element's attributes.
  *
- * @since  5.0.0
+ * @since  1.0.0
  * @access public
  * @param  string  $slug
  * @param  string  $context
@@ -55,7 +55,7 @@ function display( $slug, $context = '', $attr = [] ) {
 /**
  * Returns an HTML element's attributes.
  *
- * @since  5.0.0
+ * @since  1.0.0
  * @access public
  * @param  string  $slug
  * @param  string  $context
