@@ -1,8 +1,8 @@
 {
-	"name"        : "justintadlock/hybrid-attr",
-	"description" : "Additional theme specific features for the Hybrid Core framework.",
+	"name"        : "themehybrid/hybrid-attr",
+	"description" : "Hybrid Attr is an add-on package for the Hybrid Core framework. The purpose is to provide devs a system for adding filterable attributes. This is sort of like `body_class()`, `post_class()`, and `comment_class()` on steroids.",
 	"keywords"    : [ "wordpress" ],
-	"homepage"    : "https://github.com/justintadlock/hybrid-attr",
+	"homepage"    : "https://github.com/themehybrid/hybrid-attr",
 	"license"     : "GPL-2.0-or-later",
 	"authors"     : [
 		{
@@ -13,8 +13,8 @@
 		}
 	],
 	"support"     : {
-		"issues" : "https://github.com/justintadlock/hybrid-attr/issues",
-		"forum"  : "https://themehybrid.com/board/topics"
+		"issues" : "https://github.com/themehybrid/hybrid-attr/issues",
+		"forum"  : "https://themehybrid.com/board/forums/hybrid-core"
 	},
 	"autoload"    : {
 		"psr-4" : {
