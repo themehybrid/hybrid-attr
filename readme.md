@@ -1,8 +1,6 @@
 # Hybrid\\Attr
 
-Hybrid Attr is an add-on package for the [Hybrid Core](https://github.com/themehybrid/hybrid-core) WordPress framework.
-This is an HTML attributes class system. The purpose is to provide devs a system for adding filterable attributes.
-This is sort of like `body_class()`, `post_class()`, and `comment_class()` on steroids. However, it can handle attributes for any elements.
+Hybrid Attr is an add-on package for the [Hybrid Core](https://github.com/themehybrid/hybrid-core) WordPress framework. This is an HTML attributes class system. The purpose is to provide devs a system for adding filterable attributes. This is sort of like `body_class()`, `post_class()`, and `comment_class()` on steroids. However, it can handle attributes for any elements.
 
 ## Requirements
 
@@ -12,7 +10,7 @@ This is sort of like `body_class()`, `post_class()`, and `comment_class()` on st
 
 ## Documentation
 
-This project is only meant to work in conjunction with the Hybrid Core framework.  If you're not already working with and building a theme using it, the following will be useless.
+This project is a part of the Hybrid Core framework. It may require other packages, which will be installed via Composer.
 
 ### Installation
 
@@ -33,13 +31,13 @@ composer require themehybrid/hybrid-attr
 You need to register the service provider during your bootstrapping process.  In your bootstrapping code, you should have something like the following:
 
 ```php
-$app = new \Hybrid\Core\Application();
+$themeslug = new \Hybrid\Core\Application();
 ```
 
 After that point, you can register the service provider:
 
 ```php
-$app->provider( \Hybrid\Attr\AttrServiceProvider::class );
+$themeslug->provider( \Hybrid\Attr\AttrServiceProvider::class );
 ```
 
 ## Copyright and License
