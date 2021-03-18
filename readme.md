@@ -1,6 +1,6 @@
 # Hybrid\\Attr
 
-Hybrid Attr is an add-on package for the [Hybrid Core](https://github.com/justintadlock/hybrid-core) WordPress framework.
+Hybrid Attr is an add-on package for the [Hybrid Core](https://github.com/themehybrid/hybrid-core) WordPress framework.
 This is an HTML attributes class system. The purpose is to provide devs a system for adding filterable attributes.
 This is sort of like `body_class()`, `post_class()`, and `comment_class()` on steroids. However, it can handle attributes for any elements.
 
@@ -25,7 +25,7 @@ cd path/to/wp-content/themes/<your-theme-name>
 Then, use Composer to install the package.
 
 ```bash
-composer require justintadlock/hybrid-attr
+composer require themehybrid/hybrid-attr
 ```
 
 ### Register the service provider
@@ -46,4 +46,4 @@ $app->provider( \Hybrid\Attr\AttrServiceProvider::class );
 
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-2021 &copy; [Justin Tadlock](http://justintadlock.com).
+2008&thinsp;&ndash;&thinsp;2021 &copy; [Justin Tadlock](https://themehybrid.com).
