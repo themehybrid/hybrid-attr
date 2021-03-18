@@ -21,7 +21,7 @@
 			"Hybrid\\Attr\\" : "src/"
 		},
 		"files" : [
-			"src/bootstrap-attr.php"
+			"src/functions-attr.php"
 		]
 	},
 	"require"     : {
