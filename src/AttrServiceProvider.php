@@ -16,7 +16,7 @@
 
 namespace Hybrid\Attr;
 
-use Hybrid\Support\Tools\ServiceProvider;
+use Hybrid\Tools\ServiceProvider;
 use Hybrid\Attr\Contracts\Attributes;
 
 /**
