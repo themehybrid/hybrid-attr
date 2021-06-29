@@ -16,7 +16,7 @@
 
 namespace Hybrid\Attr;
 
-use Hybrid\Tools\ServiceProvider;
+use Hybrid\Core\ServiceProvider;
 use Hybrid\Attr\Contracts\Attributes;
 
 /**
@@ -25,7 +25,7 @@ use Hybrid\Attr\Contracts\Attributes;
  * @since  1.0.0
  * @access public
  */
-class AttrServiceProvider extends ServiceProvider {
+class Provider extends ServiceProvider {
 
 	/**
 	 * Binds the implementation of the attributes contract to the container.
@@ -35,9 +35,6 @@ class AttrServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function register() {
-
 		$this->app->bind( Attributes::class, Attr::class );
-
-		$this->app->alias( Attributes::class, 'attr' );
 	}
 }

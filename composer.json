@@ -1,6 +1,6 @@
 {
 	"name"        : "themehybrid/hybrid-attr",
-	"description" : "Hybrid Attr is an add-on package for the Hybrid Core framework. The purpose is to provide devs a system for adding filterable attributes. This is sort of like `body_class()`, `post_class()`, and `comment_class()` on steroids.",
+	"description" : "Hybrid Attr provides devs a system for adding filterable attributes. This is sort of like `body_class()`, `post_class()`, and `comment_class()` on steroids.",
 	"keywords"    : [ "wordpress" ],
 	"homepage"    : "https://github.com/themehybrid/hybrid-attr",
 	"license"     : "GPL-2.0-or-later",
@@ -21,14 +21,12 @@
 			"Hybrid\\Attr\\" : "src/"
 		},
 		"files" : [
-			"src/functions-attr.php"
+			"src/functions-helpers.php"
 		]
 	},
 	"require"     : {
-		"php"                          : ">=5.6",
-		"themehybrid/hybrid-contracts" : "^1.0.0"
-	},
-	"suggest"     : {
-		"themehybrid/hybrid-tools" : "Needed if registering the service provider with Hybrid Core."
+		"php" : ">=5.6",
+		"themehybrid/hybrid-contracts" : "dev-master",
+		"themehybrid/hybrid-core"      : "dev-master"
 	}
 }

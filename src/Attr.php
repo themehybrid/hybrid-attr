@@ -97,7 +97,6 @@ class Attr implements Attributes {
 	 * @return string
 	 */
 	public function __toString() {
-
 		return $this->render();
 	}
 
@@ -109,7 +108,6 @@ class Attr implements Attributes {
 	 * @return void
 	 */
 	public function display() {
-
 		echo $this->render();
 	}
 
