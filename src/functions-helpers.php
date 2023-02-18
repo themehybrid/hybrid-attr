@@ -24,52 +24,55 @@ use Hybrid\Attr\Contracts\Attributes;
 use Hybrid\Proxies\App;
 
 if ( ! function_exists( __NAMESPACE__ . '\\attr' ) ) {
-	/**
-	 * Wrapper for creating a new `Attributes` object.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @param  string  $name
-	 * @param  string  $context
-	 * @param  array   $attr
-	 * @return Attributes
-	 */
-	function attr( $name, $context = '', array $attr = [] ) {
-		return App::resolve(
-			Attributes::class,
-			compact( 'name', 'context', 'attr' )
-		);
-	}
+    /**
+     * Wrapper for creating a new `Attributes` object.
+     *
+     * @since  1.0.0
+     * @param  string $name
+     * @param  string $context
+     * @param  array  $attr
+     * @return \Hybrid\Attr\Contracts\Attributes
+     *
+     * @access public
+     */
+    function attr( $name, $context = '', array $attr = [] ) {
+        return App::resolve(
+            Attributes::class,
+            compact( 'name', 'context', 'attr' )
+        );
+    }
 }
 
 if ( ! function_exists( __NAMESPACE__ . '\\display' ) ) {
-	/**
-	 * Outputs an HTML element's attributes.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @param  string  $slug
-	 * @param  string  $context
-	 * @param  array   $attr
-	 * @return void
-	 */
-	function display( $slug, $context = '', $attr = [] ) {
-		attr( $slug, $context, $attr )->display();
-	}
+    /**
+     * Outputs an HTML element's attributes.
+     *
+     * @since  1.0.0
+     * @param  string $slug
+     * @param  string $context
+     * @param  array  $attr
+     * @return void
+     *
+     * @access public
+     */
+    function display( $slug, $context = '', $attr = [] ) {
+        attr( $slug, $context, $attr )->display();
+    }
 }
 
 if ( ! function_exists( __NAMESPACE__ . '\\render' ) ) {
-	/**
-	 * Returns an HTML element's attributes.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @param  string  $slug
-	 * @param  string  $context
-	 * @param  array   $attr
-	 * @return string
-	 */
-	function render( $slug, $context = '', $attr = [] ) {
-		return attr( $slug, $context, $attr )->render();
-	}
+    /**
+     * Returns an HTML element's attributes.
+     *
+     * @since  1.0.0
+     * @param  string $slug
+     * @param  string $context
+     * @param  array  $attr
+     * @return string
+     *
+     * @access public
+     */
+    function render( $slug, $context = '', $attr = [] ) {
+        return attr( $slug, $context, $attr )->render();
+    }
 }
