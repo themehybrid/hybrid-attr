@@ -21,7 +21,7 @@
 namespace Hybrid\Attr;
 
 use Hybrid\Attr\Contracts\Attributes;
-use Hybrid\Proxies\App;
+use Hybrid\App;
 
 if ( ! function_exists( __NAMESPACE__ . '\\attr' ) ) {
     /**
