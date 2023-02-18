@@ -5,7 +5,7 @@ Hybrid Attr is an HTML attributes class system. The purpose is to provide devs a
 ## Requirements
 
 * WordPress 5.7+.
-* PHP 5.6+ (preferably 7+).
+* PHP 7.4+ (preferably 8+).
 * [Composer](https://getcomposer.org/) for managing PHP dependencies.
 
 ## Copyright and License
