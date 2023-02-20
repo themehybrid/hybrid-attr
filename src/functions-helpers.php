@@ -11,7 +11,7 @@
  * ever-changing Web.
  *
  * @package   HybridAttr
- * @link      https://themehybrid.com/hybrid-attr
+ * @link      https://github.com/themehybrid/hybrid-attr
  *
  * @author    Theme Hybrid
  * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
