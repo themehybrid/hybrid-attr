@@ -7,34 +7,38 @@
  * adding this to the container, it also allows the implementation to be
  * overwritten. That way, any custom functions will utilize the new class.
  *
- * @package   HybridCore
- * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2008 - 2019, Justin Tadlock
- * @link      https://themehybrid.com/hybrid-core
+ * @package   HybridAttr
+ * @link      https://github.com/themehybrid/hybrid-attr
+ *
+ * @author    Theme Hybrid
+ * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 namespace Hybrid\Attr;
 
-use Hybrid\Core\ServiceProvider;
 use Hybrid\Attr\Contracts\Attributes;
+use Hybrid\Core\ServiceProvider;
 
 /**
  * Attr provider class.
  *
  * @since  1.0.0
+ *
  * @access public
  */
 class Provider extends ServiceProvider {
 
-	/**
-	 * Binds the implementation of the attributes contract to the container.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @return void
-	 */
-	public function register() {
-		$this->app->bind( Attributes::class, Attr::class );
-	}
+    /**
+     * Binds the implementation of the attributes contract to the container.
+     *
+     * @since  1.0.0
+     * @return void
+     *
+     * @access public
+     */
+    public function register() {
+        $this->app->bind( Attributes::class, Attr::class );
+    }
+
 }
