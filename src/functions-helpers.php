@@ -20,8 +20,8 @@
 
 namespace Hybrid\Attr;
 
-use Hybrid\Attr\Contracts\Attributes;
 use Hybrid\App;
+use Hybrid\Attr\Contracts\Attributes;
 
 if ( ! function_exists( __NAMESPACE__ . '\\attr' ) ) {
     /**
